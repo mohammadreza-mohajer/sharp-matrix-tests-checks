@@ -2,7 +2,7 @@
 
 Verification software accompanying Mohammadreza Mohajer's **Sharp matrix tests and integral gluing over affine p-adic groups**.
 
-This public package contains the verification programs, selected formal proofs, documentation, and recorded outputs. The manuscript, its TeX source, journal class, cover letter, and submission notes are distributed separately. The checks run without those files.
+This public package contains the verification programs, selected formal proofs, documentation, and recorded outputs. The manuscript can be found in author's webpage.
 
 The package includes 33 checked Lean theorem declarations, 6,866 exact Python checks, and four finite companion searches with minima 7, 11, 19, and 7. [The scope table](docs/FORMALIZATION_SCOPE.md) identifies the algebraic statements proved in Lean and their relation to the paper's written arithmetic and analytic arguments.
 
