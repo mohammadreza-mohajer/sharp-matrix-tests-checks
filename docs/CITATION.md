@@ -10,7 +10,7 @@ M.~Mohajer,
 \emph{Lean 4 formalizations and exact Python checks for
 Sharp matrix tests and integral gluing over affine $p$-adic groups},
 version~1.0.0, 2026, computer software.
-\url{REPOSITORY-URL}.
+\url{https://github.com/mohammadreza-mohajer/sharp-matrix-tests-checks.git}.
 ```
 
 Replace `REPOSITORY-URL` with the actual public repository URL. The paper files can remain with the journal.
