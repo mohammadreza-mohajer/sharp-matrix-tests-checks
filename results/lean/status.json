@@ -1,0 +1,324 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-14T00:37:25.070228+00:00",
+  "finished_utc": "2026-11-14T00:42:36.597269+00:00",
+  "execution_mode": "direct pinned compiler with prebuilt pinned Mathlib dependencies",
+  "lean_version": "Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)",
+  "mathlib_revision": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "source_sha256": {
+    "SharpMatrix/WeightedDivision.lean": "2d7ed5cd9f72b9058f86fec24bd92e456301441d403932621fdb8958fb44b7fa",
+    "SharpMatrix/WeightedMatrix.lean": "efb035ee497b61e394aadaa79f4e0e40c764de5f5b7aed270fe2dc8729f82582",
+    "SharpMatrix/HermiteSmith.lean": "13646314defa2d623ce594f5576149a2a2488efba8caf8a7417626f88381ae89",
+    "SharpMatrix/Witness.lean": "64591d550bab57ed67604c0e2b5c4b0c35cef238992ffc0f5572219c1b409c45",
+    "SharpMatrix/PeriodIdentities.lean": "e800d759de9d56db055a97d117e179608fb9db3404d1ff83a35a857378c150e1",
+    "SharpMatrix/Sylvester.lean": "685b1ea901c66a983664d92517fe9233073475925ca2331be30de5fd27dd149a",
+    "SharpMatrix.lean": "f4e4fd5b9b3caa0cc7a809b477b7015790b9ffc2a20887c671333890a7749f73",
+    "Audit.lean": "df463ea2c6bf1ea3be381b9bd3434093b1e88efc9ee319e98168b34c7d872865"
+  },
+  "configuration_sha256": {
+    "lakefile.toml": "8afe76f468ae99df5ab4341e036c91ba4fc5daf2c3653aeb76f6a1e2d32a7bc9",
+    "lake-manifest.json": "8d162c9c53521d9dda7853e2fe170ce4caa8a8ddf67a3b04482f67d5923057d4",
+    "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+  },
+  "theorem_count": 33,
+  "theorems": [
+    "SharpMatrix.weighted_power_formula",
+    "SharpMatrix.weighted_quadratic_nilpotent",
+    "SharpMatrix.weighted_implies_two_level",
+    "SharpMatrix.monic_relation_to_quadratic",
+    "SharpMatrix.weighted_relation_nilpotent",
+    "SharpMatrix.weighted_monic_division",
+    "SharpMatrix.matrix_nilpotent_of_weighted_annihilator",
+    "SharpMatrix.matrix_nilpotent_of_weighted_charpoly",
+    "SharpMatrix.matrix_translation_power",
+    "SharpMatrix.hermite_value",
+    "SharpMatrix.hermite_value_at_one",
+    "SharpMatrix.normalized_derivative_factor",
+    "SharpMatrix.hermite_normalized_derivative",
+    "SharpMatrix.smith_block_reduction",
+    "SharpMatrix.smith_left_inverse",
+    "SharpMatrix.smith_right_inverse",
+    "SharpMatrix.smith_change_determinants",
+    "SharpMatrix.smith_diagonal_divisibility",
+    "SharpMatrix.coefficient_gram_determinant",
+    "SharpMatrix.square_zero_power",
+    "SharpMatrix.detecting_witness_double_root",
+    "SharpMatrix.detecting_witness_fixed_root",
+    "SharpMatrix.kummer_period_invariance",
+    "SharpMatrix.kummer_period_determinant",
+    "SharpMatrix.elliptic_period_invariance",
+    "SharpMatrix.elliptic_period_determinant",
+    "SharpMatrix.mixed_tensor_period_invariance",
+    "SharpMatrix.tate_dual_evaluation",
+    "SharpMatrix.artin_matrix_factorization",
+    "SharpMatrix.artin_matrix_determinant_ne_zero",
+    "SharpMatrix.upper_shear_inverse",
+    "SharpMatrix.sylvester_block_change",
+    "SharpMatrix.sylvester_splits_extension"
+  ],
+  "axiom_reports": [
+    {
+      "theorem": "SharpMatrix.weighted_power_formula",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.weighted_quadratic_nilpotent",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.weighted_implies_two_level",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.monic_relation_to_quadratic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.weighted_relation_nilpotent",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.weighted_monic_division",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.matrix_nilpotent_of_weighted_annihilator",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.matrix_nilpotent_of_weighted_charpoly",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.matrix_translation_power",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.hermite_value",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.hermite_value_at_one",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.normalized_derivative_factor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.hermite_normalized_derivative",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.smith_block_reduction",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.smith_left_inverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.smith_right_inverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.smith_change_determinants",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.smith_diagonal_divisibility",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.coefficient_gram_determinant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.square_zero_power",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.detecting_witness_double_root",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.detecting_witness_fixed_root",
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.kummer_period_invariance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.kummer_period_determinant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.elliptic_period_invariance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.elliptic_period_determinant",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.mixed_tensor_period_invariance",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.tate_dual_evaluation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.artin_matrix_factorization",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.artin_matrix_determinant_ne_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.upper_shear_inverse",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.sylvester_block_change",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "theorem": "SharpMatrix.sylvester_splits_extension",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "allowed_standard_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "proof_placeholders": false,
+  "additional_axioms": false,
+  "native_decide_used": false,
+  "scope": "The selected statements in docs/FORMALIZATION_SCOPE.md; the full analytic and arithmetic constructions are not asserted to be formalized."
+}

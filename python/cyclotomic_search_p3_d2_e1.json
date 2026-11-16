@@ -1,0 +1,40 @@
+{
+  "p": 3,
+  "d": 2,
+  "e": 1,
+  "minimum_dimension": 7,
+  "search_upper_bound": 7,
+  "candidates_tested": 127,
+  "candidate_counts_through_first_witness": {
+    "1": 3,
+    "2": 6,
+    "3": 12,
+    "4": 21,
+    "5": 33,
+    "6": 51,
+    "7": 1
+  },
+  "witness_factors": [
+    {
+      "factor": "Z^1-zeta^2",
+      "multiplicity": 1
+    },
+    {
+      "factor": "Z^3-zeta^2",
+      "multiplicity": 2
+    }
+  ],
+  "elapsed_seconds": 0.008,
+  "method": "Exhaustive monic cyclotomic-factor search with arithmetic modulo p^e.",
+  "scope": "Exact finite divisibility search; the paper proves the reduction from representations.",
+  "paper_reference": {
+    "id": "sharp-matrix-tests-2026",
+    "title": "Sharp matrix tests and integral gluing over affine p-adic groups",
+    "author": "Mohammadreza Mohajer",
+    "year": 2026,
+    "recorded_manuscript_source_sha256": "35b9850aa577d2235bf2a7941616d23a087cf0ecf73107207ad1c2a4fbf89a7b",
+    "manuscript_files_included": false,
+    "provenance_note": "The hash is a historical identifier of the archived manuscript snapshot. These verification programs do not require the manuscript and do not recompute its hash."
+  },
+  "script_sha256": "c6e1f73ac355b887ced0d63e4ef6a7423bccb204d3f30d95c2b05f18dc0d19fc"
+}

@@ -1,0 +1,51 @@
+$ lean --version
+Lean (version 4.19.0, x86_64-w64-windows-gnu, commit 6caaee842e94, Release)
+
+$ lean -o SharpMatrix/WeightedDivision.olean SharpMatrix/WeightedDivision.lean
+
+$ lean -o SharpMatrix/WeightedMatrix.olean SharpMatrix/WeightedMatrix.lean
+
+$ lean -o SharpMatrix/HermiteSmith.olean SharpMatrix/HermiteSmith.lean
+
+$ lean -o SharpMatrix/Witness.olean SharpMatrix/Witness.lean
+
+$ lean -o SharpMatrix/PeriodIdentities.olean SharpMatrix/PeriodIdentities.lean
+
+$ lean -o SharpMatrix/Sylvester.olean SharpMatrix/Sylvester.lean
+
+$ lean -o SharpMatrix.olean SharpMatrix.lean
+
+$ lean Audit.lean
+'SharpMatrix.weighted_power_formula' depends on axioms: [propext]
+'SharpMatrix.weighted_quadratic_nilpotent' depends on axioms: [propext]
+'SharpMatrix.weighted_implies_two_level' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.monic_relation_to_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.weighted_relation_nilpotent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.weighted_monic_division' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.matrix_nilpotent_of_weighted_annihilator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.matrix_nilpotent_of_weighted_charpoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.matrix_translation_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.hermite_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.hermite_value_at_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.normalized_derivative_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.hermite_normalized_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.smith_block_reduction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.smith_left_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.smith_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.smith_change_determinants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.smith_diagonal_divisibility' depends on axioms: [propext]
+'SharpMatrix.coefficient_gram_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.square_zero_power' depends on axioms: [propext]
+'SharpMatrix.detecting_witness_double_root' depends on axioms: [propext, Quot.sound]
+'SharpMatrix.detecting_witness_fixed_root' depends on axioms: [propext, Quot.sound]
+'SharpMatrix.kummer_period_invariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.kummer_period_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.elliptic_period_invariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.elliptic_period_determinant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.mixed_tensor_period_invariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.tate_dual_evaluation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.artin_matrix_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.artin_matrix_determinant_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.upper_shear_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.sylvester_block_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SharpMatrix.sylvester_splits_extension' depends on axioms: [propext, Classical.choice, Quot.sound]

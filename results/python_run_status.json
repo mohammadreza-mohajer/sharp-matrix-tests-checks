@@ -1,0 +1,123 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-16T01:32:21.742144+00:00",
+  "finished_utc": "2026-11-16T01:32:43.647850+00:00",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "paper_reference": {
+    "id": "sharp-matrix-tests-2026",
+    "title": "Sharp matrix tests and integral gluing over affine p-adic groups",
+    "author": "Mohammadreza Mohajer",
+    "year": 2026,
+    "recorded_manuscript_source_sha256": "35b9850aa577d2235bf2a7941616d23a087cf0ecf73107207ad1c2a4fbf89a7b",
+    "manuscript_files_included": false,
+    "provenance_note": "The hash is a historical identifier of the archived manuscript snapshot. These verification programs do not require the manuscript and do not recompute its hash."
+  },
+  "manuscript_files_required": false,
+  "exact_check_count": 6866,
+  "exact_suite_counts": [
+    1752,
+    177,
+    1027,
+    3910
+  ],
+  "search_minima": [
+    7,
+    11,
+    19,
+    7
+  ],
+  "jobs": [
+    {
+      "script": "verify_examples.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"check_count\": 1752, \"categories\": {\"translation_representation_identity\": 24, \"left_right_commutation\": 24, \"integral_translation_matrices\": 24, \"displayed_degree_one_matrix\": 1, \"optimal_representation_identity\": 18, \"optimal_representation_integral_lattice\": 18, \"matrix_power_dimension_bound\": 36, \"integral_coproduct_coefficients\": 127, \"coproduct_reconstruction\": 12, \"ordinary_to_binomial_moments\": 36, \"jordan_inverse_formula\": 36, \"jordan_resultant\": 36, \"unit_minor_for_smith_cokernel\": 36, \"optimal_jordan_denominator\": 36, \"linking_generator_value\": 36, \"binomial_valuation_formula\": 574, \"negative_binomial_valuation_formula\": 574, \"displayed_detection_table\": 7, \"table_optimal_denominators\": 7, \"optimal_dimension_detecting_entry\": 7, \"optimal_dimension_full_matrix\": 7, \"delayed_detection_family\": 36, \"integral_ordinary_moments_samples\": 16, \"convolution_power_detection\": 12, \"convolution_power_optimal_denominator\": 12}, \"error\": null}\n",
+      "stderr": "",
+      "output": "python/finite_check_results.json"
+    },
+    {
+      "script": "verify_period_formulas.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"check_count\": 177, \"categories\": {\"coefficient_gram_matrix_shape\": 1, \"coefficient_gram_matrix\": 9, \"perfect_integral_gram_determinant\": 1, \"exact_hermite_index\": 1, \"unit_minor_hermite_cokernel\": 1, \"exact_lattice_congruence_functional\": 1, \"dilation_hermite_coordinates_shape\": 1, \"dilation_hermite_coordinates\": 9, \"dilation_automorphism_identity_shape\": 1, \"dilation_automorphism_identity\": 9, \"integral_affine_representation_identity_shape\": 3, \"integral_affine_representation_identity\": 27, \"cyclotomic_integral_matrix_entries\": 27, \"affine_block_matrix_shape\": 3, \"affine_block_matrix\": 27, \"ramified_detecting_polynomial\": 9, \"nonintegral_detecting_entry\": 3, \"clearing_detecting_denominator\": 3, \"galois_invariance_block_period_shape\": 1, \"galois_invariance_block_period\": 9, \"galois_invariance_integral_basis_period_shape\": 1, \"galois_invariance_integral_basis_period\": 9, \"period_determinant\": 1, \"galois_invariance_tate_dual_period_shape\": 1, \"galois_invariance_tate_dual_period\": 9, \"identity_tate_evaluation_pairing_shape\": 1, \"identity_tate_evaluation_pairing\": 9}, \"error\": null}\n",
+      "stderr": "",
+      "output": "python/period_check_results.json"
+    },
+    {
+      "script": "verify_extended_formulas.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"checks\": 1027, \"categories\": {\"normalized_hermite_determinant\": 6, \"integral_smith_row_operation\": 54, \"integral_smith_column_operation\": 46, \"full_cyclotomic_smith_invariants\": 6, \"full_comparison_length\": 6, \"exact_comparison_denominator\": 6, \"higher_detecting_polynomial\": 92, \"higher_witness_exact_pi_denominator\": 12, \"higher_integral_hermite_action_shape\": 5, \"higher_integral_hermite_action\": 197, \"higher_action_integral_entries\": 197, \"finite_artin_representation_law_shape\": 5, \"finite_artin_representation_law\": 37, \"weighted_vandermonde_artin_period\": 348, \"kummer_period_identity\": 1, \"ordinary_elliptic_period_identity\": 1, \"ordinary_elliptic_period_determinant\": 1, \"mixed_elliptic_kummer_period_identity\": 1, \"mixed_tensor_tate_dual\": 1, \"mixed_tensor_identity_evaluation\": 1, \"displayed_cm_curve_ordinary_hasse_coefficient\": 4}, \"error\": null}\n",
+      "stderr": "",
+      "output": "python/extended_check_results.json"
+    },
+    {
+      "script": "verify_weighted_division.py",
+      "arguments": [],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"check_count\": 3910, \"categories\": {\"exhaustive_weighted_monic_division\": 3406, \"deterministic_sampled_weighted_monic_division\": 480, \"sharp_weighted_exponent_vanishing\": 9, \"sharp_weighted_exponent_nonvanishing\": 9, \"counterexample_without_quadratic_coefficient_weight\": 3, \"counterexample_without_linear_coefficient_weight\": 3}, \"error\": null}\n",
+      "stderr": "",
+      "output": "python/weighted_division_results.json"
+    },
+    {
+      "script": "cyclotomic_search.py",
+      "arguments": [
+        "--p",
+        "3",
+        "--d",
+        "2",
+        "--e",
+        "1"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"p\": 3, \"d\": 2, \"e\": 1, \"minimum_dimension\": 7, \"search_upper_bound\": 7, \"candidates_tested\": 127, \"candidate_counts_through_first_witness\": {\"1\": 3, \"2\": 6, \"3\": 12, \"4\": 21, \"5\": 33, \"6\": 51, \"7\": 1}, \"witness_factors\": [{\"factor\": \"Z^1-zeta^2\", \"multiplicity\": 1}, {\"factor\": \"Z^3-zeta^2\", \"multiplicity\": 2}], \"elapsed_seconds\": 0.008, \"method\": \"Exhaustive monic cyclotomic-factor search with arithmetic modulo p^e.\", \"scope\": \"Exact finite divisibility search; the paper proves the reduction from representations.\", \"paper_reference\": {\"id\": \"sharp-matrix-tests-2026\", \"title\": \"Sharp matrix tests and integral gluing over affine p-adic groups\", \"author\": \"Mohammadreza Mohajer\", \"year\": 2026, \"recorded_manuscript_source_sha256\": \"35b9850aa577d2235bf2a7941616d23a087cf0ecf73107207ad1c2a4fbf89a7b\", \"manuscript_files_included\": false, \"provenance_note\": \"The hash is a historical identifier of the archived manuscript snapshot. These verification programs do not require the manuscript and do not recompute its hash.\"}, \"script_sha256\": \"c6e1f73ac355b887ced0d63e4ef6a7423bccb204d3f30d95c2b05f18dc0d19fc\"}\n",
+      "stderr": "",
+      "output": "python/cyclotomic_search_p3_d2_e1.json"
+    },
+    {
+      "script": "cyclotomic_search.py",
+      "arguments": [
+        "--p",
+        "5",
+        "--d",
+        "2",
+        "--e",
+        "1"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"p\": 5, \"d\": 2, \"e\": 1, \"minimum_dimension\": 11, \"search_upper_bound\": 11, \"candidates_tested\": 4021, \"candidate_counts_through_first_witness\": {\"1\": 5, \"2\": 15, \"3\": 35, \"4\": 70, \"5\": 130, \"6\": 230, \"7\": 390, \"8\": 635, \"9\": 995, \"10\": 1515, \"11\": 1}, \"witness_factors\": [{\"factor\": \"Z^1-zeta^4\", \"multiplicity\": 1}, {\"factor\": \"Z^5-zeta^4\", \"multiplicity\": 2}], \"elapsed_seconds\": 1.536, \"method\": \"Exhaustive monic cyclotomic-factor search with arithmetic modulo p^e.\", \"scope\": \"Exact finite divisibility search; the paper proves the reduction from representations.\", \"paper_reference\": {\"id\": \"sharp-matrix-tests-2026\", \"title\": \"Sharp matrix tests and integral gluing over affine p-adic groups\", \"author\": \"Mohammadreza Mohajer\", \"year\": 2026, \"recorded_manuscript_source_sha256\": \"35b9850aa577d2235bf2a7941616d23a087cf0ecf73107207ad1c2a4fbf89a7b\", \"manuscript_files_included\": false, \"provenance_note\": \"The hash is a historical identifier of the archived manuscript snapshot. These verification programs do not require the manuscript and do not recompute its hash.\"}, \"script_sha256\": \"c6e1f73ac355b887ced0d63e4ef6a7423bccb204d3f30d95c2b05f18dc0d19fc\"}\n",
+      "stderr": "",
+      "output": "python/cyclotomic_search_p5_d2_e1.json"
+    },
+    {
+      "script": "cyclotomic_search.py",
+      "arguments": [
+        "--p",
+        "3",
+        "--d",
+        "3",
+        "--e",
+        "1"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"p\": 3, \"d\": 3, \"e\": 1, \"minimum_dimension\": 19, \"search_upper_bound\": 19, \"candidates_tested\": 6661, \"candidate_counts_through_first_witness\": {\"1\": 3, \"2\": 6, \"3\": 12, \"4\": 21, \"5\": 33, \"6\": 51, \"7\": 75, \"8\": 105, \"9\": 147, \"10\": 201, \"11\": 267, \"12\": 354, \"13\": 462, \"14\": 591, \"15\": 753, \"16\": 948, \"17\": 1176, \"18\": 1455, \"19\": 1}, \"witness_factors\": [{\"factor\": \"Z^1-zeta^2\", \"multiplicity\": 1}, {\"factor\": \"Z^9-zeta^2\", \"multiplicity\": 2}], \"elapsed_seconds\": 2.103, \"method\": \"Exhaustive monic cyclotomic-factor search with arithmetic modulo p^e.\", \"scope\": \"Exact finite divisibility search; the paper proves the reduction from representations.\", \"paper_reference\": {\"id\": \"sharp-matrix-tests-2026\", \"title\": \"Sharp matrix tests and integral gluing over affine p-adic groups\", \"author\": \"Mohammadreza Mohajer\", \"year\": 2026, \"recorded_manuscript_source_sha256\": \"35b9850aa577d2235bf2a7941616d23a087cf0ecf73107207ad1c2a4fbf89a7b\", \"manuscript_files_included\": false, \"provenance_note\": \"The hash is a historical identifier of the archived manuscript snapshot. These verification programs do not require the manuscript and do not recompute its hash.\"}, \"script_sha256\": \"c6e1f73ac355b887ced0d63e4ef6a7423bccb204d3f30d95c2b05f18dc0d19fc\"}\n",
+      "stderr": "",
+      "output": "python/cyclotomic_search_p3_d3_e1.json"
+    },
+    {
+      "script": "cyclotomic_search.py",
+      "arguments": [
+        "--p",
+        "3",
+        "--d",
+        "3",
+        "--e",
+        "2"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"p\": 3, \"d\": 3, \"e\": 2, \"minimum_dimension\": 7, \"search_upper_bound\": 7, \"candidates_tested\": 127, \"candidate_counts_through_first_witness\": {\"1\": 3, \"2\": 6, \"3\": 12, \"4\": 21, \"5\": 33, \"6\": 51, \"7\": 1}, \"witness_factors\": [{\"factor\": \"Z^1-zeta^2\", \"multiplicity\": 1}, {\"factor\": \"Z^3-zeta^2\", \"multiplicity\": 2}], \"elapsed_seconds\": 0.033, \"method\": \"Exhaustive monic cyclotomic-factor search with arithmetic modulo p^e.\", \"scope\": \"Exact finite divisibility search; the paper proves the reduction from representations.\", \"paper_reference\": {\"id\": \"sharp-matrix-tests-2026\", \"title\": \"Sharp matrix tests and integral gluing over affine p-adic groups\", \"author\": \"Mohammadreza Mohajer\", \"year\": 2026, \"recorded_manuscript_source_sha256\": \"35b9850aa577d2235bf2a7941616d23a087cf0ecf73107207ad1c2a4fbf89a7b\", \"manuscript_files_included\": false, \"provenance_note\": \"The hash is a historical identifier of the archived manuscript snapshot. These verification programs do not require the manuscript and do not recompute its hash.\"}, \"script_sha256\": \"c6e1f73ac355b887ced0d63e4ef6a7423bccb204d3f30d95c2b05f18dc0d19fc\"}\n",
+      "stderr": "",
+      "output": "python/cyclotomic_search_p3_d3_e2.json"
+    }
+  ]
+}

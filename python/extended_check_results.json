@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-16T01:32:32.751495+00:00",
+  "finished_utc": "2026-11-16T01:32:37.093027+00:00",
+  "method": "Exact rational/cyclotomic polynomial arithmetic; independent discrete-valuation Smith elimination.",
+  "sympy_version": "1.14.0",
+  "mpmath_version": "1.3.0",
+  "check_count": 1027,
+  "checks_by_category": {
+    "normalized_hermite_determinant": 6,
+    "integral_smith_row_operation": 54,
+    "integral_smith_column_operation": 46,
+    "full_cyclotomic_smith_invariants": 6,
+    "full_comparison_length": 6,
+    "exact_comparison_denominator": 6,
+    "higher_detecting_polynomial": 92,
+    "higher_witness_exact_pi_denominator": 12,
+    "higher_integral_hermite_action_shape": 5,
+    "higher_integral_hermite_action": 197,
+    "higher_action_integral_entries": 197,
+    "finite_artin_representation_law_shape": 5,
+    "finite_artin_representation_law": 37,
+    "weighted_vandermonde_artin_period": 348,
+    "kummer_period_identity": 1,
+    "ordinary_elliptic_period_identity": 1,
+    "ordinary_elliptic_period_determinant": 1,
+    "mixed_elliptic_kummer_period_identity": 1,
+    "mixed_tensor_tate_dual": 1,
+    "mixed_tensor_identity_evaluation": 1,
+    "displayed_cm_curve_ordinary_hasse_coefficient": 4
+  },
+  "lattice_examples": [
+    {
+      "p": 3,
+      "j": 0,
+      "rank": 3,
+      "smith_valuations": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "p": 3,
+      "j": 1,
+      "rank": 7,
+      "smith_valuations": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "p": 3,
+      "j": 2,
+      "rank": 19,
+      "smith_valuations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "p": 5,
+      "j": 0,
+      "rank": 3,
+      "smith_valuations": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "p": 5,
+      "j": 1,
+      "rank": 11,
+      "smith_valuations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        4,
+        4,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "p": 7,
+      "j": 0,
+      "rank": 3,
+      "smith_valuations": [
+        0,
+        0,
+        2
+      ]
+    }
+  ],
+  "artin_examples": [
+    {
+      "p": 3,
+      "j": 0,
+      "artin_rank": 1
+    },
+    {
+      "p": 3,
+      "j": 1,
+      "artin_rank": 3
+    },
+    {
+      "p": 3,
+      "j": 2,
+      "artin_rank": 9
+    },
+    {
+      "p": 5,
+      "j": 1,
+      "artin_rank": 5
+    }
+  ],
+  "paper_reference": {
+    "id": "sharp-matrix-tests-2026",
+    "title": "Sharp matrix tests and integral gluing over affine p-adic groups",
+    "author": "Mohammadreza Mohajer",
+    "year": 2026,
+    "recorded_manuscript_source_sha256": "35b9850aa577d2235bf2a7941616d23a087cf0ecf73107207ad1c2a4fbf89a7b",
+    "manuscript_files_included": false,
+    "provenance_note": "The hash is a historical identifier of the archived manuscript snapshot. These verification programs do not require the manuscript and do not recompute its hash."
+  },
+  "script_sha256": "3066697e239a2fc84b6e0ca529aee8e3f6da5788a5c934950a96dabba2dff605",
+  "scope": "Finite algebraic consistency checks. The general optimality, period-ring, and convergence arguments are written proofs in the manuscript.",
+  "error": null
+}

@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "started_utc": "2026-11-16T01:41:28.851281+00:00",
+  "finished_utc": "2026-11-16T01:41:31.868426+00:00",
+  "manuscript_pdf_or_tex_included": false,
+  "journal_class_or_submission_files_included": false,
+  "manuscript_files_required": false,
+  "private_git_history_included": false,
+  "lean_theorem_count": 33,
+  "lean_sources_and_saved_records_unchanged": true,
+  "fresh_python_checks": 6866,
+  "search_minima": [
+    7,
+    11,
+    19,
+    7
+  ],
+  "mathematical_algorithm_preservation": [
+    {
+      "script": "python/verify_examples.py",
+      "mathematical_functions_and_classes_unchanged": true,
+      "original_sha256": "6f9fa63b8328488996c7143ed49c1612411b878a9ebe307e7791d1f424f89d73",
+      "public_sha256": "e8fdacfb23e61be7be6c9a39a663e5b596ff32e61f37d02e43b8b86a8ea98152"
+    },
+    {
+      "script": "python/verify_period_formulas.py",
+      "mathematical_functions_and_classes_unchanged": true,
+      "original_sha256": "73a803dfdc98a17698acd35912cb2ac3b0337de93103e495d947c65572ec6af8",
+      "public_sha256": "58e225092d7e3534e207fd96e0bf8be0a9a112a669f654efbf5bdc964465bfac"
+    },
+    {
+      "script": "python/verify_extended_formulas.py",
+      "mathematical_functions_and_classes_unchanged": true,
+      "original_sha256": "8c5e1b221d5ee48072819e74d11690da152bd44becb363ef2014a7c6ab5c7351",
+      "public_sha256": "3066697e239a2fc84b6e0ca529aee8e3f6da5788a5c934950a96dabba2dff605"
+    },
+    {
+      "script": "python/verify_weighted_division.py",
+      "mathematical_functions_and_classes_unchanged": true,
+      "original_sha256": "21c52cf78baabfcb257f96af596c3010f7b3dd7d0f88688ddffec34e72d4d115",
+      "public_sha256": "52c1cb23bc3b5efcc57bca8e704c09e06e1de46a485f91398819fb8dae34000c"
+    },
+    {
+      "script": "python/cyclotomic_search.py",
+      "mathematical_functions_and_classes_unchanged": true,
+      "original_sha256": "c285c726e1f44a4159eeb987689a1efb743d9a3231689a83159bbc1e7817fe7e",
+      "public_sha256": "c6e1f73ac355b887ced0d63e4ef6a7423bccb204d3f30d95c2b05f18dc0d19fc"
+    }
+  ],
+  "citation_helper_tested_without_manuscript": true,
+  "citation_helper_idempotent": true,
+  "readme_relative_links_valid": true,
+  "historical_manuscript_hash_recomputed": false,
+  "private_full_package_modified": false,
+  "github_publication_performed": false
+}

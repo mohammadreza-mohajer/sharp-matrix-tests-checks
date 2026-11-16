@@ -1,0 +1,14 @@
+name = "sharp_matrix_tests"
+version = "1.0.0"
+defaultTargets = ["SharpMatrix"]
+
+[leanOptions]
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.19.0"
+
+[[lean_lib]]
+name = "SharpMatrix"

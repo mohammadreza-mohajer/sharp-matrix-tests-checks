@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this verification repository and the accompanying manuscript when using these files."
+type: software
+title: "Lean 4 formalizations and exact Python checks for Sharp matrix tests and integral gluing over affine p-adic groups"
+version: "1.0.0"
+authors:
+  - family-names: Mohajer
+    given-names: Mohammadreza
+abstract: "Selected general algebraic proofs and independent finite exact-arithmetic checks accompanying the manuscript. The repository documents the precise formalization scope and reproduces all recorded verification outputs."
+references:
+  - type: article
+    title: "Sharp matrix tests and integral gluing over affine p-adic groups"
+    authors:
+      - family-names: Mohajer
+        given-names: Mohammadreza
+    year: 2026
