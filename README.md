@@ -1,6 +1,6 @@
 # Sharp matrix tests: Lean 4 and Python verification
 
-Verification software accompanying Mohammadreza Mohajer's **Sharp matrix tests and integral gluing over affine p-adic groups**.
+Verification software accompanying Mohammadreza Mohajer's **Sharp Matrix Tests and Integral Gluing for Scalar Affine p-adic Groups**.
 
 This public package contains the verification programs, selected formal proofs, documentation, and recorded outputs. The manuscript can be found in author's webpage.
 
@@ -66,4 +66,4 @@ Run `python tools/check_integrity.py --archive-bytes` to check the supplied snap
 
 The finite calculations supplement the written proofs. Lean establishes the precise algebraic statements in the supplied sources; the local-field constructions, spectral classification, period rings, and analytic estimates retain their written arguments. The general regulator and unrestricted biextension constructions remain further research problems in the paper.
 
-The verification programs, proof scripts, and documentation were prepared with assistance from OpenAI's ChatGPT. The mathematical attribution is described in [the literature comparison](docs/LITERATURE_COMPARISON.md). Mathlib supplies the polynomial, matrix, characteristic-p, and Cayley-Hamilton results used by the formalization.
+The verification programs and documentation were prepared with assistance from OpenAI's ChatGPT. The mathematical attribution is described in [the literature comparison](docs/LITERATURE_COMPARISON.md). Mathlib supplies the polynomial, matrix, characteristic-p, and Cayley-Hamilton results used by the formalization.
