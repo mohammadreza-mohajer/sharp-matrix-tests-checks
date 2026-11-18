@@ -31,9 +31,7 @@ The earlier finite-field Frobenius realization is semisimple. The Jordan example
 
 The central focused result is the exact pair of dimension formulas in Theorem 8.6, with its uniform lower-bound proof and its attaining integral orders. For a fixed cyclotomic coefficient extension, the dimension saving is unbounded. The same orders have full Smith factors and closed Artin–Kummer period matrices; their elliptic tensor realization has a specified nonzero abelian factor.
 
-The comparison above separates these claims from the nearest classical results. The primary-source searches did not locate this exact theorem package in the compared works. That finding supports the present positioning; it is not a proof that no older formulation exists.
-
-In particular, the paper makes no new general-priority claim for the Sylvester equation, companion-matrix density, the rational comparison theorem for all 1-motives, ordinary CM decomposition, or the classical Iwasawa pairing.
+The comparison above separates these claims from the nearest classical results.
 
 ## A precise point concerning Frisch
 
@@ -52,4 +50,4 @@ Only the first assertion of Theorem 6.3 is used for context. It applies over eve
 - [Perrin-Riou on regulator elementary divisors](https://doi.org/10.5802/jtnb.1188)
 - [Brinon–Conrad notes](https://math.stanford.edu/~conrad/papers/notes.pdf)
 
-The manuscript contains all 22 references. Bibliographic metadata and the directly used comparisons were checked against publisher, journal, author, or author-deposited preprint sources.
+The manuscript contains all references. Bibliographic metadata, proof arguments, and the statements and hypotheses of the comparison results were checked by the author.
